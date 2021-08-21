@@ -4,9 +4,11 @@ Instructi
 
 Clone and Go to project directory:
 
-### `git clone https://github.com/escottgoodwin/internationalization_translation.git`
+`git clone https://github.com/escottgoodwin/internationalization_translation.git`
 
-### `cd internationalization_translation`
+`cd internationalization_translation`
+
+### Setup
 
 In the index.js file, set your variables 
 
@@ -15,7 +17,9 @@ In the index.js file, set your variables
 `const destinationFilePath = '' // location to save generated file`
 `const googleProjectId = '' // google product id that corresponds to the service account you are using`
 
-[https://cloud.google.com/translate/docs/languages](List of supported languages and codes)
+[List of supported languages and codes](https://cloud.google.com/translate/docs/languages)
+
+### Set up Google Credentials
 
 Set your service account path in the GOOGLE_APPLICATION_CREDENTIALS env var
 
@@ -23,7 +27,9 @@ Set your service account path in the GOOGLE_APPLICATION_CREDENTIALS env var
 
 If you are running this in a google environment with an account authorized for the google translate api, you don't need to set the environment variable.
 
-Enable [https://cloud.google.com/translate/docs/setup](Google Translate and create service key). 
+Enable [Google Translate and create service key](https://cloud.google.com/translate/docs/setup). 
+
+## Generate Files
 
 Install packages: 
 
