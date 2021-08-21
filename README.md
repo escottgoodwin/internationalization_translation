@@ -8,15 +8,29 @@ Clone and go to the project directory:
 
 ### Setup
 
-In the index.js file, set your variables 
+In the index.js file, set your variables: 
 
-`const targetLang = '' // language code for file you want to generate - French => 'fr'`
+Language code for file you want to generate:
+`const targetLang = ''`
 
-`const sourceFilePath = '' // json internationlization source file path`
+Json internationlization source file path:
+`const sourceFilePath = ''`
 
-`const destinationFilePath = '' // location to save generated file`
+Example:
 
-`const googleProjectId = '' // google product id that corresponds to the service account you are using`
+```
+{
+    "welcome":"Welcome",
+    "aboutus: "About Us",
+    "pricing: "Pricing"
+}
+```
+
+Location to save generated file:
+`const destinationFilePath = ''`
+
+Google product id that corresponds to the service account (see below):
+`const googleProjectId = ''`
 
 [List of supported languages and codes](https://cloud.google.com/translate/docs/languages)
 
@@ -43,5 +57,3 @@ Run:
 Find generated file. The file should appear in the the destination folder with the langauge code
 
 `/destination/folder/fr.json`
-
-
