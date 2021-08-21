@@ -8,7 +8,7 @@ Clone and go to the project directory:
 
 ### Setup
 
-In the index.js file, set your variables: 
+In the `index.js` file, set your variables: 
 
 Language code for file you want to generate:\
 `const targetLang = ''`
