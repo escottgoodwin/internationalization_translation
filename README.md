@@ -10,10 +10,10 @@ Clone and go to the project directory:
 
 In the index.js file, set your variables: 
 
-Language code for file you want to generate:
+Language code for file you want to generate:\
 `const targetLang = ''`
 
-Json internationlization source file path:
+Json internationlization source file path:\
 `const sourceFilePath = ''`
 
 Example:
@@ -26,10 +26,10 @@ Example:
 }
 ```
 
-Location to save generated file:
+Location to save generated file:\
 `const destinationFilePath = ''`
 
-Google product id that corresponds to the service account (see below):
+Google product id that corresponds to the service account (see below):\
 `const googleProjectId = ''`
 
 [List of supported languages and codes](https://cloud.google.com/translate/docs/languages)
