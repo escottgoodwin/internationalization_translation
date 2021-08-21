@@ -1,8 +1,6 @@
-Instructi
+## Clone
 
-## Instructions
-
-Clone and Go to project directory:
+Clone and go to the project directory:
 
 `git clone https://github.com/escottgoodwin/internationalization_translation.git`
 
@@ -13,8 +11,11 @@ Clone and Go to project directory:
 In the index.js file, set your variables 
 
 `const targetLang = '' // language code for file you want to generate - French => 'fr'`
+
 `const sourceFilePath = '' // json internationlization source file path`
+
 `const destinationFilePath = '' // location to save generated file`
+
 `const googleProjectId = '' // google product id that corresponds to the service account you are using`
 
 [List of supported languages and codes](https://cloud.google.com/translate/docs/languages)
