@@ -1,0 +1,19 @@
+{
+  "name": "internationalization_translation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generates internatization files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Translation",
+    "Internationalization"
+  ],
+  "author": "Evan Goodwin",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^6.2.7"
+  }
+}
