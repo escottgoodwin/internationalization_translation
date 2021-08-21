@@ -16,9 +16,11 @@ Language code for file you want to generate:\
 Json internationlization source file path:\
 `const sourceFilePath = ''`
 
-Example:
+Example of internationlization json file:
 
 ```
+en.json
+
 {
     "welcome":"Welcome",
     "aboutus: "About Us",
