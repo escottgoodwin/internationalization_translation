@@ -56,6 +56,14 @@ Run:
 
 `node index.js`
 
-Find generated file. The file should appear in the the destination folder with the langauge code
+Find generated file. The file should appear in the the destination folder with the langauge code.
 
 `/destination/folder/fr.json`
+
+```
+{
+    "welcome":"Bienvenue",
+    "aboutus: "À propos de nous",
+    "pricing: "Prix"
+}
+```
